@@ -1,0 +1,39 @@
+{
+    "name": "ng4-webpack",
+    "version": "1.0.0",
+    "author": "Virtual Affairs",
+    "license": "ISC",
+    "scripts": {
+        "start": "webpack-dev-server --inline --progress --port 8080",
+        "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+        "tsc": "webpack --progress --profile --bail"
+      },
+    "dependencies": {
+      "@angular/common": "^5.0.3",
+      "@angular/compiler": "^5.0.3",
+      "@angular/core": "^5.0.3",
+      "@angular/platform-browser": "^5.0.3",
+      "@angular/platform-browser-dynamic": "^5.0.3",
+      "core-js": "^2.4.1",                                    
+      "rxjs": "^5.5.2",
+      "zone.js": "^0.8.18"
+    },
+    "devDependencies": {
+      "@types/angular": "^1.5.8",
+      "@types/node": "^8.0.53",
+      "angular2-template-loader": "^0.6.2",
+      "awesome-typescript-loader": "^3.4.0",
+      "css-loader": "^0.26.1",                                  
+      "extract-text-webpack-plugin": "2.0.0-beta.5", 
+      "file-loader": "^0.9.0",            
+      "html-loader": "^0.4.3",                                  
+      "html-webpack-plugin": "^2.16.1",  
+      "raw-loader": "^0.5.1",   
+      "style-loader": "^0.13.1",                    
+      "typescript": "2.4.2",
+      "webpack": "^3.8.1",
+      "webpack-dev-server": "2.4.1",                           
+      "webpack-merge": "4.1.1"
+    }
+  }
+  

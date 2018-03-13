@@ -1,0 +1,22 @@
+{
+    //"compileOnSave": false, // needed
+    "compilerOptions": {
+      "target": "es5",
+      "module": "es2015",
+      "moduleResolution": "node",
+      //"sourceMap": true, // used in webpack  
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": ["es2015", "dom"],
+      "noImplicitAny": true,
+      "removeComments": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "typeRoots": ["node_modules/@types"],
+      "types": [ "node", "angular" ]
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+  
